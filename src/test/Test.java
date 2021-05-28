@@ -11,7 +11,8 @@ public class Test {
 	public void test() {
 		Operaciones op = new Operaciones();	
 		double resultSuma = op.suma(2, 2);	
-		assertEquals("Suma 2+2=4", 2+2, resultSuma);		
+		System.out.println(resultSuma);
+		assertEquals("Suma 2+2=4", 4.0, resultSuma, 1e-5);		
 	}
 	
 	
