@@ -30,6 +30,14 @@ public class Test {
 	}
 	
 	
+	@org.junit.Test
+	public void testDivi() {		
+		double result = op.division(10, 2);
+		assertEquals("Division 10/2=5", 5.0, result, 1e-5);
+			
+	}
+	
+	
 	
 	
 	
